@@ -80,7 +80,7 @@ export default {
 				sm: 'calc(var(--radius) - 4px)'
 			},
 			fontFamily: {
-				sans: ['SF Pro Display', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
+				sans: ['Inter', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'],
 				mono: ['SF Mono', 'monospace'],
 				serif: ['New York', 'Times New Roman', 'serif']
 			},
