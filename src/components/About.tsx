@@ -11,8 +11,8 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12">
           <div className="space-y-6">
             <p className="text-lg">
-              Hello! I'm a passionate developer and entrepreneur with expertise in building innovative digital solutions. 
-              I combine technical skills with business acumen to create products that solve real-world problems.
+              Welcome to my page! I'm an aspiring software developer and entrepreneur with expertise in building innovative digital solutions. 
+              I combine technical skills with product development to create solutions for real-world problems.
             </p>
             <p className="text-lg">
               With experience in both startups and established companies, I've developed a keen eye for identifying opportunities

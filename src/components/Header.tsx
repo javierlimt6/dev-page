@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <header className="w-full py-6 fixed top-0 z-50 backdrop-blur-lg bg-background/80 border-b border-white/10">
       <div className="container mx-auto px-4 flex items-center justify-between">
-        <a href="#" className="text-2xl font-bold text-gradient">YourName</a>
+        <a href="#" className="text-2xl font-bold text-gradient">Javier Lim Jun Yi</a>
         
         <div className="flex items-center gap-8">
           <div className="hidden md:flex gap-6">
