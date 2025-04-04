@@ -9,7 +9,8 @@ import Awards from '@/components/Awards';
 import Life from '@/components/Life';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
-import Photo from '@/components/Photo';
+import Leadership from '@/components/Leadership';
+
 
 const Index = () => {
   return (
@@ -20,6 +21,7 @@ const Index = () => {
       <About />
       <Experience />
       <Projects />
+      <Leadership />
       <Awards />
       <Life />
       <Contact />

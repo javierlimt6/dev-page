@@ -47,7 +47,7 @@ const Projects = () => {
     <section id="projects" className="section-container">
       <div className="max-w-6xl mx-auto">
         <h2 className="section-title">Projects</h2>
-        <p className="section-subtitle">Showcasing my technical and entrepreneurial skills</p>
+        <p className="section-subtitle">The itches I'm scratching!</p>
         
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project) => (

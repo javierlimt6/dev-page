@@ -56,7 +56,7 @@ const Contact = () => {
     <section id="contact" className="section-container bg-secondary/20">
       <div className="max-w-4xl mx-auto">
         <h2 className="section-title">Contact Me</h2>
-        <p className="section-subtitle">Let's start a conversation</p>
+        <p className="section-subtitle">Let's chat 😊</p>
         
         <div className="glass p-8 rounded-xl">
           <div className="grid md:grid-cols-[1fr_2fr] gap-8">
@@ -69,7 +69,7 @@ const Contact = () => {
                 Interested in working together or have a question? Send me a message and I'll get back to you as soon as possible.
               </p>
               <p className="text-apple-gray">
-                Alternatively, you can email me directly at <a href="mailto:your.email@example.com" className="text-apple-blue hover:underline">your.email@example.com</a>
+                Alternatively, you can contact me directly at <a href="mailto:javier.lim@u.nus.edu" className="text-apple-blue hover:underline">javier.lim@u.nus.edu</a>
               </p>
             </div>
             
