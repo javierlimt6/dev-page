@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Button } from '@/components/ui/button';
-import { FileText } from 'lucide-react';
+import { FileUserIcon } from 'lucide-react';
 
 const About = () => {
   return (
@@ -20,14 +20,14 @@ const About = () => {
               development, while my entrepreneurial mindset helps me see the bigger picture.
             </p>
             <p className="text-lg">
-              I'm constantly learning and exploring new technologies to stay ahead of the curve. When I'm not coding or
-              strategizing, you'll find me playing floorball, traveling, or trying something new and exciting.
+              I'm constantly learning and exploring new technologies to stay ahead of the curve. When I'm not 
+              building and realising ideas, you'll find me playing floorball, traveling, or trying something new and exciting.
             </p>
             
             <div className="pt-4">
-              <Button variant="outline" className="gap-2">
-                <FileText size={16} />
-                Download Resume
+              <Button variant="outline" className="gap-2 py-2.5 px-5 text-base sm:py-3 sm:px-6">
+                <FileUserIcon className="w-5 h-5" />
+                Resume
               </Button>
             </div>
           </div>
@@ -37,9 +37,9 @@ const About = () => {
             
             <div className="space-y-6">
               <div>
-                <h4 className="text-lg font-medium mb-3">Technical Skills</h4>
+                <h4 className="text-lg font-medium mb-3">Languages</h4>
                 <div className="flex flex-wrap gap-2">
-                  {["JavaScript", "TypeScript", "React", "Node.js", "Python", "AWS", "GraphQL", "Docker"].map((skill) => (
+                  {["Python", "JavaScript", "TypeScript", "Java", "C/C++", "MIPS/ASM", "HTML/CSS", "SQL", "PHP"].map((skill) => (
                     <span key={skill} className="bg-secondary px-3 py-1 rounded-full text-sm">
                       {skill}
                     </span>
@@ -48,9 +48,15 @@ const About = () => {
               </div>
               
               <div>
-                <h4 className="text-lg font-medium mb-3">Business Skills</h4>
+                <h4 className="text-lg font-medium mb-3">Technical Skills</h4>
                 <div className="flex flex-wrap gap-2">
-                  {["Product Strategy", "Market Research", "Business Development", "Growth Hacking", "Pitching", "Team Leadership"].map((skill) => (
+                  {[ "Flask", "React", "React Native", 
+                  "Django", "Express.js", "Laravel",
+                  "GCP", "Git", "Docker",
+                  "MongoDB", "PostgreSQL", "Supabase",
+                  "Figma", "Adobe Express", "Adobe Premiere Pro",
+                  "Adobe Photoshop", "Canva", "GIMPS"
+                ].map((skill) => (
                     <span key={skill} className="bg-secondary px-3 py-1 rounded-full text-sm">
                       {skill}
                     </span>
