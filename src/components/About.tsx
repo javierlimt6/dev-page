@@ -36,6 +36,19 @@ const About = () => {
             <h3 className="text-2xl font-bold mb-6">Skills & Expertise</h3>
             
             <div className="space-y-6">
+            <div>
+                <div className="space-y-3">
+                  <div>
+                    <p className="font-medium">Bachelor's in Computer Science
+
+                    </p>
+                    
+                    <p className="text-sm text-apple-gray">National University of Singapore, 2024-2028</p>
+                    <p className="text-xs text-apple-gray">Second Major in Data Analytics, First Class Honours</p>
+                  </div>
+
+                </div>
+              </div>
               <div>
                 <h4 className="text-lg font-medium mb-3">Languages</h4>
                 <div className="flex flex-wrap gap-2">
@@ -54,7 +67,21 @@ const About = () => {
                   "Django", "Express.js", "Laravel",
                   "GCP", "Git", "Docker",
                   "MongoDB", "PostgreSQL", "Supabase",
-                  "Figma", "Adobe Express", "Adobe Premiere Pro",
+                  "Matplotlib", "NumPy", "pandas", 
+                  "Pygame", "Cocos", "PIM", 
+                  "FASTApi", "Axios"
+                ].map((skill) => (
+                    <span key={skill} className="bg-secondary px-3 py-1 rounded-full text-sm">
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              <div>
+                <h4 className="text-lg font-medium mb-3">Content Creation</h4>
+                <div className="flex flex-wrap gap-2">
+                  {["Figma", "Adobe Express", "Adobe Premiere Pro",
                   "Adobe Photoshop", "Canva", "GIMPS"
                 ].map((skill) => (
                     <span key={skill} className="bg-secondary px-3 py-1 rounded-full text-sm">
@@ -64,19 +91,6 @@ const About = () => {
                 </div>
               </div>
               
-              <div>
-                <h4 className="text-lg font-medium mb-3">Education</h4>
-                <div className="space-y-3">
-                  <div>
-                    <p className="font-medium">Master's in Computer Science</p>
-                    <p className="text-sm text-apple-gray">University Name, 2018-2020</p>
-                  </div>
-                  <div>
-                    <p className="font-medium">Bachelor's in Software Engineering</p>
-                    <p className="text-sm text-apple-gray">University Name, 2014-2018</p>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>

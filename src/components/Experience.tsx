@@ -1,24 +1,29 @@
-
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
-import { Briefcase } from 'lucide-react';
+import { Briefcase, ExternalLink } from 'lucide-react';
+import Image from 'next/image';
 
 const experiences = [
   {
     id: 1,
-    title: "Senior Software Engineer",
-    company: "Tech Company Inc.",
-    period: "2021 - Present",
-    description: "Leading the development of the company's main product, managing a team of 5 developers, implementing best practices, and architecting scalable solutions.",
-    technologies: ["React", "TypeScript", "Node.js", "AWS"]
+    title: "Co-Founder",
+    company: "Chimera",
+    period: "Jan 2025 - Present",
+    description: "Co-founded a productivity app startup that empowers youths to be consistent in their morning routine. Led product development, technology stack decisions, and managing a team of developers.",
+    technologies: ["React Native", "Django", "TypeScript", "React", "Supabase"],
+    photoUrl: "/images/chimera-logo.png", // Add your image path here
+    link: "https://chimera-app.com", // Optional - remove if no link
+    linktext: "Landing Page"
   },
   {
     id: 2,
-    title: "Co-Founder & CTO",
-    company: "Startup Name",
-    period: "2019 - 2021",
+    title: "Incoming Software Engineering Intern",
+    company: "CloudJoi",
+    period: "May 2025 - Aug 2025",
     description: "Co-founded a SaaS startup that provided AI-powered analytics solutions. Led product development, technology stack decisions, and managed a team of developers.",
-    technologies: ["Python", "Django", "React", "TensorFlow"]
+    technologies: ["Python", "Django", "React", "TensorFlow"],
+    photoUrl: "/images/cloudjoi-logo.png"
+    // No link provided - this is optional
   },
   {
     id: 3,
@@ -26,7 +31,9 @@ const experiences = [
     company: "Another Company",
     period: "2018 - 2019",
     description: "Worked on frontend development for the company's main product. Implemented new features and improved existing ones, focusing on performance optimization.",
-    technologies: ["JavaScript", "Vue.js", "CSS", "Firebase"]
+    technologies: ["JavaScript", "Vue.js", "CSS", "Firebase"],
+    photoUrl: "/images/chimera-logo.png",
+    link: "https://another-company.com"
   },
   {
     id: 4,
@@ -34,7 +41,8 @@ const experiences = [
     company: "Self-employed",
     period: "2016 - 2018",
     description: "Worked with various clients on web and mobile application development projects, delivering custom solutions that met their specific needs.",
-    technologies: ["React Native", "JavaScript", "PHP", "WordPress"]
+    technologies: ["React Native", "JavaScript", "PHP", "WordPress"],
+    photoUrl: "/images/chimera-logo.png"
   }
 ];
 
@@ -51,13 +59,32 @@ const Experience = () => {
               <CardContent className="p-0">
                 <div className="grid md:grid-cols-[200px_1fr] lg:grid-cols-[250px_1fr]">
                   <div className="p-6 bg-apple-blue/10 flex flex-col justify-center items-center text-center border-r border-white/10">
-                    <Briefcase className="mb-4 text-apple-blue" size={24} />
+                    <div className="relative w-16 h-16 mb-4 overflow-hidden rounded-full">
+                      {/* <Image 
+                        src={exp.photoUrl} 
+                        alt={`${exp.company} logo`} 
+                        fill
+                        className="object-cover"
+                      /> */}
+                    </div>
                     <h3 className="font-bold text-xl">{exp.company}</h3>
                     <p className="text-apple-gray">{exp.period}</p>
                   </div>
                   
                   <div className="p-6">
-                    <h3 className="text-xl font-bold mb-3">{exp.title}</h3>
+                    <div className="flex justify-between items-center mb-3">
+                      <h3 className="text-xl font-bold">{exp.title}</h3>
+                      {exp.link && (
+                        <a 
+                          href={exp.link} 
+                          target="_blank" 
+                          rel="noopener noreferrer" 
+                          className="text-apple-blue hover:text-apple-blue/80 transition-colors flex items-center gap-1"
+                        >
+                          {exp.linktext ? exp.linktext : "Visit"} <ExternalLink size={16} />
+                        </a>
+                      )}
+                    </div>
                     <p className="mb-4">{exp.description}</p>
                     
                     <div className="flex flex-wrap gap-2">

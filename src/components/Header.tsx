@@ -26,15 +26,12 @@ const Header = () => {
           </div>
           
           <div className="flex items-center gap-4">
-            <a href="https://instagram.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-foreground/80 hover:text-foreground transition-colors">
-              <Instagram size={20} />
-              <span className="sr-only">Instagram</span>
-            </a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="text-foreground/80 hover:text-foreground transition-colors">
+            
+            <a href="https://linkedin.com/in/jav-lim" target="_blank" rel="noopener noreferrer" className="text-foreground/80 hover:text-foreground transition-colors">
               <Linkedin size={20} />
               <span className="sr-only">LinkedIn</span>
             </a>
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="text-foreground/80 hover:text-foreground transition-colors">
+            <a href="https://github.com/javierlimt6" target="_blank" rel="noopener noreferrer" className="text-foreground/80 hover:text-foreground transition-colors">
               <Github size={20} />
               <span className="sr-only">GitHub</span>
             </a>

@@ -14,15 +14,7 @@ const Footer = () => {
           </div>
           
           <div className="flex gap-6">
-            <a 
-              href="https://instagram.com/yourusername" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-apple-gray hover:text-foreground transition-colors"
-            >
-              <Instagram size={20} />
-              <span className="sr-only">Instagram</span>
-            </a>
+
             <a 
               href="https://linkedin.com/in/yourusername" 
               target="_blank" 
