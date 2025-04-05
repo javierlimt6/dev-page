@@ -6,26 +6,32 @@ const awards = [
   {
     id: 1,
     title: "Hackathon Enthusiast",
-    subtitle: "Tech Awards 2023",
-    description: "Recognized for innovation in the tech industry with our groundbreaking product."
+    subtitle: "Various Hackathons & Competitions",
+    description: "Hack & Roll 2025, Hack 4 Good 2024, SAFMC 2021: Finalist Team, Cyberthon 2021: Commendation Award (9th Team Placing)"
   },
   {
     id: 2,
-    title: "Serial Olympiad Medallist",
-    subtitle: "Entrepreneur Magazine",
-    description: "Awarded for developing a revolutionary solution that changed the industry standard."
+    title: "Pitching Competitions",
+    subtitle: "RC4 Pitching Competition",
+    description: "Pitched Chimera to various judges, including a Stanford professor from Silicon Valley for a $10,000 grant funded by NUS Enterprise"
   },
   {
     id: 3,
-    title: "Competitive Sportsperson & Gamer",
-    subtitle: "Global DevFest",
-    description: "First place in a 48-hour hackathon focused on AI solutions for healthcare."
+    title: "Serial Olympiad Medallist",
+    subtitle: "Participating since 2016",
+    description: "International Olympiads: IJMO 2018 (Bronze) SIMOC 2017 (Bronze, Rank 26) National Olympiads: 2x Distinctions, 2x Silver, 1x Bronze, 1x Credit"
   },
   {
     id: 4,
-    title: "Top 30 Under 30",
+    title: "Sportsperson",
+    subtitle: "Floorball",
+    description: "Participated in national SFA Divisions 2 & 4 2022-2023, Inter-Faculty Games 2024 Gold, Inter-College Games 2025 Bronze"
+  },
+  {
+    id: 5,
+    title: "Sweaty Gamer",
     subtitle: "Tech Innovators",
-    description: "Named one of the top young entrepreneurs in the technology sector."
+    description: "Inter-College Games 2025: Super Smash Bros Ultimate (Gold), Foosball (Gold), FIFA Captain (Bronze), resident video game tryhard"
   }
 ];
 
@@ -35,8 +41,8 @@ const Awards = () => {
       <div className="absolute inset-0 bg-background/60 backdrop-blur-sm"></div>
       
       <div className="max-w-5xl mx-auto relative z-10">
-        <h2 className="section-title">Awards & Recognition</h2>
-        <p className="section-subtitle">Celebrating achievements and milestones</p>
+        <h2 className="section-title">Awards</h2>
+        <p className="section-subtitle">I chase shiny stuffs (Don't take this section too seriously)</p>
         
         <div className="grid md:grid-cols-2 gap-x-8 gap-y-12">
           {awards.map((award) => (

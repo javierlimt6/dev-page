@@ -18,8 +18,8 @@ const lifeCategories = [
   {
     id: "new-stuff",
     title: "Trying New Things",
-    description: "Constantly exploring new hobbies, skills, and experiences to broaden my horizons and perspective.",
-    image: "/images/life.jpg"
+    description: "Constantly exploring new hobbies, skills, and experiences to broaden my horizons and perspective!",
+    image: "/images/guitar.png"
   }
 ];
 
@@ -28,7 +28,7 @@ const Life = () => {
     <section id="life" className="section-container">
       <div className="max-w-6xl mx-auto">
         <h2 className="section-title">Life Beyond Code</h2>
-        <p className="section-subtitle">What I do in my free time (if I ever get any..)</p>
+        <p className="section-subtitle">What I do in my free time (when I get any..)</p>
         
         <div className="grid md:grid-cols-3 gap-8">
           {lifeCategories.map((category) => (

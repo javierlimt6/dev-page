@@ -8,7 +8,7 @@ const experiences = [
     title: "Co-Founder",
     company: "Chimera",
     period: "Jan 2025 - Present",
-    description: "Co-founded a productivity app startup to empowers youths to be consistent in their morning routine. Led product development, technology stack decisions, and managing a team of developers. Participated in RC4 Pitching Competition and applying for accelerator programs like BLK71 and VIP@SoC.",
+    description: "Co-founded a productivity app startup to empowers youths to be consistent in their morning routine. Led product development, technology stack decisions, and managing a team of developers. Participated in RC4 Pitching Competition (awaiting results) and applying for accelerator programs like BLK71 and VIP@SoC.",
     technologies: ["React Native", "Django", "TypeScript", "Python", "React", "Supabase"],
     photoUrl: "/images/chimera-logo.png", // Add your image path here
     link: "https://chimeraapp.net", // Optional - remove if no link
@@ -88,7 +88,7 @@ const Experience = () => {
     <section id="experience" className="section-container bg-secondary/20">
       <div className="max-w-5xl mx-auto">
         <h2 className="section-title">Experience</h2>
-        <p className="section-subtitle">My professional journey</p>
+        <p className="section-subtitle">My Professional Journey.</p>
         
         <div className="space-y-8">
           {experiences.map((exp) => (

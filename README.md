@@ -105,4 +105,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 Feel free to reach out if you have questions or feedback about this project.
 
-[Email](mailto:your.email@example.com) | [LinkedIn](https://linkedin.com/in/yourprofile) | [GitHub](https://github.com/yourusername)
+[Email](mailto:javier.lim@u.nus.edu) | [LinkedIn](https://linkedin.com/in/jav-lim) | [GitHub](https://github.com/javierlimt6)

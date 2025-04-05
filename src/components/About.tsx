@@ -11,7 +11,7 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12">
           <div className="space-y-6">
             <p className="text-lg">
-              Welcome to my page! I'm an aspiring software developer and entrepreneur with expertise in building innovative digital solutions. 
+              Welcome to my page! I am an entrepreneur & software engineer with expertise in building innovative digital solutions. 
               I combine technical skills with product development to create solutions for real-world problems.
             </p>
             <p className="text-lg">
