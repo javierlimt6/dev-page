@@ -5,30 +5,26 @@ import { Award } from 'lucide-react';
 const awards = [
   {
     id: 1,
-    title: "Best Tech Startup",
-    organization: "Tech Awards 2023",
-    year: "2023",
+    title: "Hackathon Enthusiast",
+    subtitle: "Tech Awards 2023",
     description: "Recognized for innovation in the tech industry with our groundbreaking product."
   },
   {
     id: 2,
-    title: "Innovation Award",
-    organization: "Entrepreneur Magazine",
-    year: "2022",
+    title: "Serial Olympiad Medallist",
+    subtitle: "Entrepreneur Magazine",
     description: "Awarded for developing a revolutionary solution that changed the industry standard."
   },
   {
     id: 3,
-    title: "Hackathon Winner",
-    organization: "Global DevFest",
-    year: "2021",
+    title: "Competitive Sportsperson & Gamer",
+    subtitle: "Global DevFest",
     description: "First place in a 48-hour hackathon focused on AI solutions for healthcare."
   },
   {
     id: 4,
     title: "Top 30 Under 30",
-    organization: "Tech Innovators",
-    year: "2020",
+    subtitle: "Tech Innovators",
     description: "Named one of the top young entrepreneurs in the technology sector."
   }
 ];
@@ -49,9 +45,9 @@ const Awards = () => {
               <div>
                 <div className="flex items-baseline justify-between mb-2">
                   <h3 className="text-xl font-bold">{award.title}</h3>
-                  <span className="text-sm text-apple-gray">{award.year}</span>
+                  
                 </div>
-                <p className="text-sm text-apple-gray mb-2">{award.organization}</p>
+                <p className="text-sm text-apple-gray mb-2">{award.subtitle}</p>
                 <p>{award.description}</p>
               </div>
             </div>
