@@ -6,20 +6,20 @@ const lifeCategories = [
   {
     id: "floorball",
     title: "Floorball",
-    description: "A passionate floorball player, participating in local leagues and tournaments for over 5 years.",
-    image: "https://placehold.co/800x600/1f1f23/ffffff?text=Floorball"
+    description: "A passionate floorball player, participating in local leagues and tournaments since 2020.",
+    image: "/images/flb.jpg"
   },
   {
     id: "travel",
     title: "Travel",
     description: "An avid traveler who has visited over 20 countries, always seeking new cultures and experiences.",
-    image: "https://placehold.co/800x600/1f1f23/ffffff?text=Travel"
+    image: "/images/travel.png"
   },
   {
     id: "new-stuff",
     title: "Trying New Things",
     description: "Constantly exploring new hobbies, skills, and experiences to broaden my horizons and perspective.",
-    image: "https://placehold.co/800x600/1f1f23/ffffff?text=Exploration"
+    image: "/images/life.jpg"
   }
 ];
 
@@ -28,7 +28,7 @@ const Life = () => {
     <section id="life" className="section-container">
       <div className="max-w-6xl mx-auto">
         <h2 className="section-title">Life Beyond Code</h2>
-        <p className="section-subtitle">Passions and interests outside work</p>
+        <p className="section-subtitle">What I do in my free time (if I ever get any..)</p>
         
         <div className="grid md:grid-cols-3 gap-8">
           {lifeCategories.map((category) => (

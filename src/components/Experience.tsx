@@ -19,9 +19,11 @@ const experiences = [
     title: "Incoming Full Stack Software Engineering Intern",
     company: "CloudJoi",
     period: "May 2025 - Aug 2025",
-    description: "Under the NUS Overseas College Malaysia program, CloudJoi is a digital platform startup based in Kuala Lumpur dedicated to making shows accessible for all.",
+    description: "Under the NUS Overseas College Malaysia program, CloudJoi is the largest ticketing platform for performing arts in Malaysia dedicated to making shows accessible for all.",
     technologies: ["JavaScript", "PHP", "React", "Laravel"],
-    photoUrl: "/images/cloudjoi-logo.png"
+    photoUrl: "/images/cloudjoi-logo.png",
+    link: "https://www.linkedin.com/company/cloudjoi/",
+    linktext: "Linkedin"
     // No link provided - this is optional
   },
   {
@@ -30,28 +32,55 @@ const experiences = [
     company: "NUS School Of Computing",
     period: "Jan 2025 - Present",
     description: "Given sole responsibility of rebuilding lesson materials and assignment files. Updated deprecated content from Python 3.7 to 3.13, improving GUI and translating code from Cocos to Pygame, utilising GIMPS to rectify faulty sRGB profiles, removing problematic metadata. 2D Runes Contest Head IC.",
-    technologies: ["Python", "Pygame", "Cocos", "GIMPS"],
+    technologies: ["Python", "Pygame", "Cocos", "GIMPS", "PIM"],
     photoUrl: "/images/soc-logo.png",
-    link: "https://another-company.com"
+    link: "https://nusmods.com/courses/CS1010X/programming-methodology",
+    linktext: "Module"
   },
   {
     id: 4,
+    title: "Teaching Assistant for SWS3001: Solving Real World Problems with Computational Thinking",
+    company: "NUS School Of Computing",
+    period: "May 2024 - July 2024",
+    description: "SWS3001 is a course under the NUS School of Computing Summer Workshop, an annual program designed for undergraduate students in fields like Computer Science. It is a project-based, hands-on course aimed at equipping participants with knowledge on how to solve problems computationally. Mentored a class of 20+ Y3 International students, conducted tutorials and graded projects and presentations.",
+    technologies: ["Teaching", "Graphs", "Computational Intelligence"],
+    photoUrl: "/images/soc-logo.png",
+    link: "https://sws.comp.nus.edu.sg/Solving-with-CT.html",
+    linktext: "Module"
+  },
+  {
+    id: 5,
     title: "Software Engineering Intern",
     company: "Strive Math (YC S21)",
     period: "Jan 2024 - Jun 2024",
     description: "Worked with YC S21-backed, Forbes 30 Under 30 Asia 2024-recognised EdTech startup. Developed interactive simulations with p5.js illustrating Grade 8 math concepts for 10k students. Leveraged TinaCMS to integrate content management with modern development practices. Developed modular and reusable codebases for educational games, incorporating OOP, FP, event-driven programming, and real-time user interaction handling. Designed and executed structured Python programming workshops across multiple international schools",
     technologies: ["Python", "JavaScript", "p5", "Game Development"],
-    photoUrl: "/images/strive-logo.png"
+    photoUrl: "/images/strive-logo.png",
+    link: "https://www.linkedin.com/company/strivemath",
+    linktext: "LinkedIn"
   }, 
   {
-    id: 5,
-    title: "Video Editor Intern",
+    id: 6,
+    title: "Content Creation Intern",
     company: "Indigo Education Group",
     period: "Jan 2022 - Mar 2022",
-    description: "Produced engaging creative content for social media platforms, successfully garnering over 100,000+ views. Edited and produced educational videos explaining complex chemistry topics in a clear and concise manner. Enhanced professional video editing skills through hands-on experience with advanced editing tools and techniques.",
-    technologies: ["Video Editing", "Content Creation", "Premiere Pro"],
-    photoUrl: "/images/indigo-logo.png"
+    description: "Produced engaging creative content for social media platforms, successfully garnering over 150,000+ views. Edited and produced educational videos explaining complex chemistry topics in a clear and concise manner. Enhanced professional video editing skills through hands-on experience with advanced editing tools and techniques.",
+    technologies: ["Video Editing", "Content Creation", "Premiere Pro", "TikTok"],
+    photoUrl: "/images/indigo-logo.png",
+    link: "https://www.youtube.com/watch?v=xSIMkIcUG88",
+    linktext: "Video"
   }, 
+  {
+    id: 7,
+    title: "AI Researcher",
+    company: "A*Star Institute for Infocomm Research",
+    period: "Nov 2020 - Jan 2021",
+    description: "Research attachment at Singapore’s leading research organisation to enhance PCR result detection Extracted and analysed datasets via Matplotlib, NumPy, & pandas, and used EMA to determine sigmoidal curves from plot points and establish thresholds. Produced numerous algorithms with 100% detection accuracy, tested with evaluation datasets.",
+    technologies: ["Python", "matplotlib", "numPy", "pandas", "Jupyter Notebook", "Artificial Intelligence Models"],
+    photoUrl: "/images/astar-logo.png",
+    link: "https://docs.google.com/document/d/1U8SppCYAukq6ENivelJUjRhaeYUOyQ706bFg3vP2BOA/edit?usp=sharing",
+    linktext: "Report"
+  }
 ];
 
 const Experience = () => {

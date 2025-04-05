@@ -8,28 +8,29 @@ const leadershipItems = [
     title: "Head of RC4Floorball",
     description: "Provides leadership for the floorball team, organising training sessions, fostering teamwork, and strategising for competitions. Organised a workshop introducing 30+ residents to pick up the sport. Won 2nd Runner-Up at Inter-College Games 2025 🏆",
     icon: Medal,
-    link: "https://rc4floorball.com", // Optional - add this if you have a link
-    linktext: "Team Page" // Optional - customize link text
   },
   {
     id: "csc-swe",
     title: "Lead Software Engineer of RC4 CSCTech",
-    description: "Co-organized three student hackathons, managing logistics and mentoring participants. Secured sponsorships worth over $10,000! 💻",
+    description: "Leads software development projects, manages team tasks, and ensures the delivery of high-quality technical solutions in the RC. Now actively involved in 2 projects 💻",
     icon: LaptopMinimalCheck,
     // No link
   },
   {
     id: "rc4-entre",
     title: "Financial Executive for RC4 Entrepreneurship Club",
-    description: "Mentored junior developers in coding skills and career guidance. Helped 15+ students land their first tech jobs. 🌱",
+    description: "Promoting entrepreneurship in Resident College 4. Organised events like the Startup Carnival, connecting RC4 residents with startups based in NUS, and a Pitching Clinic where over 40 participants gained valuable insights on crafting compelling pitches, capturing investor interest, and scaling big ideas. 🚀🌱",
     icon: ChartNetwork,
+    link: "https://www.linkedin.com/company/rc4-entre/",
     // No link
   },
   {
     id: "startup-nes",
     title: "Startup Member at NUS Entrepreneurship Society",
-    description: "Founded a local tech meetup group with 200+ members. Organized monthly events featuring industry speakers. 🚀",
+    description: "Engages in a vibrant entrepreneurial community, leveraging mentorship, exclusive events, and resources to develop and scale Chimera. 💪🏼",
     icon: Handshake,
+    link: "https://www.linkedin.com/posts/nusentresoc_nus-entrepreneurship-societys-nes-partnerships-activity-7299824429650382850-F90N?utm_source=share&utm_medium=member_desktop&rcm=ACoAADvJz1ABqDtwMiYc8SS8kXGVbDXhzvviY_A",
+    linktext: "Details"
     // No link
   }
 ];
