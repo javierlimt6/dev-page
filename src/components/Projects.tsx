@@ -7,7 +7,7 @@ const projects = [
   {
     id: 1,
     title: "MyPaperLeh?",
-    description: "MyPaperLeh is an AI-powered SaaS platform currently in stealth mode, designed to revolutionise exam paper generation. The platform takes uploaded exam papers and regenerates completely new papers with fresh questions, maintaining the same format, topics, and syllabus coverage. It aims to streamline the process for educators and institutions by leveraging cutting-edge Generative AI technologies.",
+    description: "MyPaperLeh is an AI-powered SaaS platform currently in stealth mode, designed to revolutionise exam paper generation. The platform takes uploaded exam papers and regenerates completely new papers with fresh questions, maintaining the same format, topics, and syllabus coverage. It aims to streamline the exam-making process for educators and provide additional revision resources for students by leveraging cutting-edge Generative AI technologies.",
     technologies: ["React", "TypeScript", "Python", "GenAI", "Supabase", "FASTApi", "Syncfusion"],
     demoLink: "#",
     githubLink: "#",
@@ -19,7 +19,7 @@ const projects = [
     description: "Developed an intelligent AI solving the 2048 puzzle game using minimax algorithm with alpha-beta pruning. Implemented strategic heuristics including positional weighting, clustering penalties, and empty cell analysis. Created a depth-limited search algorithm balancing computational efficiency with strategic planning. Built a full-stack application with Python/FastAPI backend and React frontend connected via Axios to visualise the AI's decision-making process in real-time. The system achieves high scores, reaching the 2048 tile at >90% rate.",
     technologies: ["React", "Python", "FASTApi", "TypeScript", "Minimax", "Alpha-Beta Pruning", "Artifical Intelligence"],
     demoLink: "#",
-    githubLink: "#",
+    githubLink: "https://github.com/javierlimt6/2048solver",
     image: "/images/2048solver-logo.png"
   },
   {
@@ -36,17 +36,17 @@ const projects = [
     title: "Chimera Landing Page",
     description: "React + Vite website to showcase Chimera and collect email addresses from interested beta testers. Hosted with Vercel + Supabase database",
     technologies: ["React", "TypeScript", "Supabase", "Vercel"],
-    demoLink: "#",
-    githubLink: "#",
+    demoLink: "chimeraapp.net",
+    githubLink: "https://github.com/javierlimt6/chimera-gathering-grove",
     image: "/images/chimera-banner.png"
   },
   {
     id: 5,
     title: "NUSPolls",
     description: "A Telegram Bot & Channel, similar to NUSConfessIT, meant to collect anonymous polls from NUS students and display responses on the channel. Utilised NLP-processing technologies to validate poll inputs, hosted with Python backend with Telegram interface.",
-    technologies: ["Python", "TensorFlow", "Flask", "D3.js"],
+    technologies: ["Python", "Telegram", "NLP", "OOP", "FP"],
     demoLink: "#",
-    githubLink: "#",
+    githubLink: "https://github.com/javierlimt6/NUSPolls",
     image: "https://placehold.co/600x400/1f1f23/ffffff?text=NUSPolls"
   },
   {
@@ -73,7 +73,7 @@ const projects = [
     description: "What you are seeing now! Hosted with React Frontend, using Supabase to collect email addresses.",
     technologies: ["React", "Supabase", "TypeScript"],
     demoLink: "#",
-    githubLink: "#",
+    githubLink: "https://github.com/javierlimt6/chimera-gathering-grove",
     image: "/images/portfolio-banner.png"
   },
   
@@ -111,22 +111,26 @@ const Projects = () => {
               </CardContent>
               
               <CardFooter className="px-6 pb-6 pt-0 flex gap-4">
-                <a 
-                  href={project.demoLink} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-apple-blue hover:underline flex items-center gap-1"
-                >
-                  Check it out! {project.demoLink == "#" ? "(Coming soon...)": ""} <ArrowUpRight size={16} />
-                </a>
-                <a 
-                  href={project.githubLink} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-apple-blue hover:underline flex items-center gap-1"
-                >
-                  GitHub {project.githubLink == "#" ? "(Coming soon...)": ""} <Github size={16} />
-                </a>
+                {project.demoLink !== "#" && (
+                  <a 
+                    href={project.demoLink} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-apple-blue hover:underline flex items-center gap-1"
+                  >
+                    Check it out! <ArrowUpRight size={16} />
+                  </a>
+                )}
+                {project.githubLink !== "#" && (
+                  <a 
+                    href={project.githubLink} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-apple-blue hover:underline flex items-center gap-1"
+                  >
+                    GitHub <Github size={16} />
+                  </a>
+                )}
               </CardFooter>
             </Card>
           ))}

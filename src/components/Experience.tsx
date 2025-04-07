@@ -54,7 +54,7 @@ const experiences = [
     company: "Strive Math (YC S21)",
     period: "Jan 2024 - Jun 2024",
     description: "Worked with YC S21-backed, Forbes 30 Under 30 Asia 2024-recognised EdTech startup. Developed interactive simulations with p5.js illustrating Grade 8 math concepts for 10k students. Leveraged TinaCMS to integrate content management with modern development practices. Developed modular and reusable codebases for educational games, incorporating OOP, FP, event-driven programming, and real-time user interaction handling. Designed and executed structured Python programming workshops across multiple international schools",
-    technologies: ["Python", "JavaScript", "p5", "Game Development"],
+    technologies: ["Python", "JavaScript", "p5", "Game Development", "Startup Development", "OOP", "CMS", "FP"],
     photoUrl: "/images/strive-logo.png",
     link: "https://www.linkedin.com/company/strivemath",
     linktext: "LinkedIn"

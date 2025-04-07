@@ -2,6 +2,7 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { FileUserIcon } from 'lucide-react';
+import Link from 'next/link';
 
 const About = () => {
   return (
@@ -25,10 +26,12 @@ const About = () => {
             </p>
             
             <div className="pt-4">
-              <Button variant="outline" className="gap-2 py-2.5 px-5 text-base sm:py-3 sm:px-6">
-                <FileUserIcon className="w-5 h-5" />
-                Resume
-              </Button>
+              <a href="/resume.pdf" target="_blank">
+              <Button variant="outline" className="gap-2 py-2.5 px-5 text-base lg:py-4 lg:px-8 bg-slate-900 hover:bg-indigo-800">
+                  <FileUserIcon className="w-auto h-auto" />
+                  Resume
+                </Button>
+              </a>
             </div>
           </div>
           
