@@ -20,7 +20,7 @@ const Hero = () => {
           <span className="text-gradient"> Entrepreneur.</span> Innovator.
         </h1>
         <p className="text-xl md:text-2xl text-apple-gray max-w-3xl mx-auto mb-12 animate-fade-in" style={{animationDelay: '0.4s', animationDuration: "2.0s"}}>
-          Passionate about crafting impactful digital experiences and building innovative solutions to real-world problems.
+          I like to code stuff to solve real problems.
         </p>
         
 
