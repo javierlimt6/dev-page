@@ -24,15 +24,29 @@ const About = () => {
               I'm constantly learning and exploring new technologies to stay ahead of the curve. When I'm not 
               building and realising ideas, you'll find me playing floorball, traveling, or trying something new and exciting.
             </p>
+
+
             
-            <div className="pt-4">
+            <div className="flex gap-2">
+            <p className ="section-subtitle">
+              Resume:
+            </p>
               <a href="/resume.pdf" target="_blank">
-              <Button variant="outline" className="gap-2 py-2.5 px-5 text-base lg:py-4 lg:px-8 bg-slate-900 hover:bg-indigo-800">
+              <Button variant="outline" className="gap-1 py-2.5 px-5 text-base lg:py-4 lg:px-8 bg-slate-900 hover:bg-indigo-800">
                   <FileUserIcon className="w-auto h-auto" />
-                  Resume
+                  1 Page
+                </Button>
+              </a>
+
+              <a href="/resume2.pdf" target="_blank">
+              <Button variant="outline" className="gap-1 py-2.5 px-5 text-base lg:py-4 lg:px-8 bg-slate-900 hover:bg-indigo-800">
+                  <FileUserIcon className="w-auto h-auto" />
+                  2 Pages
                 </Button>
               </a>
             </div>
+
+            
           </div>
           
           <div className="glass p-8 rounded-xl">
